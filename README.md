@@ -1,4 +1,4 @@
-# Text-to-SVG Parser Project (Final – Programming Languages)
+# Text-to-SVG Parser Project
 
 This project is a simple **Text-to-Code** system written in C++ that uses a mini domain-specific language (DSL) to convert plain text drawing commands into valid SVG markup. It parses input like `"DRAW RECTANGLE..."` and generates shape definitions that can be rendered directly in any modern web browser.
 
@@ -85,6 +85,7 @@ DRAW RECTANGLE x=100 y=100 width=200 height=100 color=red DRAW CIRCLE x=300 y=30
 <number> ::= <digit> | <digit> <number>
 <digit> ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
 <color_name> ::= "red" | "blue" | "green" | "yellow" | "black" | "white"
+````
 
 ---
 
@@ -96,7 +97,7 @@ DRAW RECTANGLE x=100 y=100 width=200 height=100 color=red DRAW CIRCLE x=300 y=30
 
    ```sh
    g++ main.cpp -o text_to_svg.exe
-````
+   ```
 
 2. **Run the Executable**:
 
@@ -161,10 +162,7 @@ This shows the final SVG output rendered in a web browser, including:
 
 ---
 
----
-
 ## Author
 
-\** Mason Brown
-Morehouse College - Computer Science
-*Spring 2025 - Programming Languages Final Proeject\*
+- Mason Brown
+- Morehouse College - Computer Science
