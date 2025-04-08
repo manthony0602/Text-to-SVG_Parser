@@ -1,0 +1,2 @@
+DRAW RECTANGLE x=100 y=100 width=200 height=100 color=green
+DRAW CIRCLE x=300 y=300 radius=75 color=blue
